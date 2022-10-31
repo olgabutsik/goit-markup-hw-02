@@ -1,0 +1,241 @@
+:root {
+  --heading-text-color: #212121;
+  --click-color: #2196f3;
+  --paragraph-color: #757575;
+  --footer-color: #2f303a;
+  --main-font: "Roboto", sans-serif;
+  --main-bg-color: #ffffff;
+  --bg-btn-color: #188ce8;
+  --secondary-section-color: #f5f5f5;
+  --team-section-color: #f5f4fa;
+  --portfolio-cards-color: #eeeeee;
+}
+body {
+  font-family: var(--main-font);
+  background-color: var(--main-bg-color);
+  width: 1600px;
+  color: var(--paragraph-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo span {
+  color: var(--click-color);
+}
+ul {
+  list-style: none;
+}
+.nav-menu,
+.email-ref,
+.tel-ref {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-menu,
+.nav-menu-contacts {
+  color: var(--heading-text-color);
+}
+.tel-ref,
+.email-ref {
+  color: var(--paragraph-color);
+  text-decoration: none;
+}
+.nav-menu-this-page,
+.nav-menu-this-page:hover,
+.nav-menu-this-page:focus,
+.nav-menu--page:hover,
+.nav-menu--page:focus,
+.nav-menu-contacts:hover,
+.nav-menu-contacts:focus,
+.tel-ref:hover,
+.tel-ref:focus,
+.email-ref:hover,
+.email-ref:focus,
+.address:hover,
+.address:focus {
+  color: var(--click-color);
+  cursor: pointer;
+}
+.nav-menu-this-page,
+.nav-menu--page,
+.nav-menu-contacts {
+  text-decoration: none;
+}
+.main-section {
+  width: 1600px;
+  background-color: #2f303a;
+  text-align: center;
+}
+h1 {
+  color: var(--main-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn-main-section {
+  width: 216px;
+  background-color: var(--click-color);
+  color: var(--main-bg-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.btn-main-section:hover,
+.btn-main-section:focus {
+  cursor: pointer;
+  background-color: var(--bg-btn-color);
+}
+.our-features,
+.what-we-are-doing {
+  background-color: var(--secondary-section-color);
+}
+.heading-our-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--heading-text-color);
+}
+.text-our-features {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+.what-we-are-doing,
+.team {
+  text-align: center;
+}
+.team {
+  background-color: var(--team-section-color);
+}
+.heading-what-we-are-doing,
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--heading-text-color);
+}
+.card-staffer {
+  background-color: var(--main-bg-color);
+}
+.name-staffer {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--heading-text-color);
+}
+.position-staffer {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color);
+}
+.footer-bottom {
+  width: 1600px;
+  background-color: var(--footer-color);
+}
+.logo .footer-logo {
+  color: var(--main-bg-color);
+}
+.address {
+  color: var(--main-bg-color);
+
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.email-ref.footer,
+.tel-ref.footer {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.five-btn {
+  text-align: center;
+}
+.first-btn {
+  width: 73px;
+  height: 38px;
+  background-color: var(--click-color);
+  color: var(--main-bg-color);
+}
+.first-btn,
+.second-btn,
+.third-btn,
+.fourth-btn,
+.fifth-btn {
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+}
+.second-btn,
+.third-btn,
+.fourth-btn,
+.fifth-btn {
+  background-color: var(--team-section-color);
+  color: var(--heading-text-color);
+}
+.second-btn {
+  width: 125px;
+}
+.third-btn {
+  width: 112px;
+}
+.fourth-btn {
+  width: 103px;
+}
+.fifth-btn {
+  width: 130px;
+}
+.first-btn:hover,
+.first-btn:focus,
+.second-btn:hover,
+.second-btn:focus,
+.third-btn:hover,
+.third-btn:focus,
+.fourth-btn:hover,
+.fourth-btn:focus,
+.fifth-btn:hover,
+.fifth-btn:focus {
+  background-color: var(--click-color);
+  color: var(--main-bg-color);
+}
+.portfolio-cards {
+  background-color: var(--main-bg-color);
+}
+.heading-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--heading-text-color);
+  letter-spacing: 0.06em;
+}
+.text-portfolio {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--paragraph-color);
+  letter-spacing: 0.03em;
+}
