@@ -42,7 +42,8 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-menu,
+.nav-menu-this-page,
+.nav-menu--page,
 .nav-menu-contacts {
   color: var(--heading-text-color);
 }
@@ -73,7 +74,6 @@ ul {
   text-decoration: none;
 }
 .main-section {
-  width: 1600px;
   background-color: #2f303a;
   text-align: center;
 }
@@ -93,6 +93,8 @@ ul {
   line-height: 1.88;
   letter-spacing: 0.06em;
   text-align: center;
+  font-family: inherit;
+  font-weight: 700;
 }
 .btn-main-section:hover,
 .btn-main-section:focus {
@@ -161,6 +163,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
 }
 .email-ref.footer,
 .tel-ref.footer {
@@ -168,6 +171,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
 }
 .five-btn {
   text-align: center;
@@ -188,6 +192,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
+  font-family: inherit;
 }
 .second-btn,
 .third-btn,
